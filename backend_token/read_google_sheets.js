@@ -1,6 +1,6 @@
 // const { GoogleSpreadsheet } = require('google-spreadsheet')
 
-// const API_KEY = '<AIzaSyAIb6ux0XvKWNX0XGqs-d3kPf_1sBWKmo0>' // See: https://developers.google.com/sheets/api/guides/authorizing#APIKey
+// const API_KEY = '<>' // See: https://developers.google.com/sheets/api/guides/authorizing#APIKey
 // const SHEET_ID = '<1PCXn3xrkgtivNgtkO-pCK65ctD0LsKPTX_iKFL2CqmA>' // spreadsheet key is the long id in the sheets URL
 
 // const doc = new GoogleSpreadsheet(SHEET_ID)
