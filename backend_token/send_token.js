@@ -19,11 +19,11 @@ web3js = new web3(new web3.providers.HttpProvider("https://sepolia.infura.io/v3/
 app.get('/sendtx',function(req,res){
 
         var myAddress = '0x83aC9E25C706Ca8B871bade94F019a2E03797978';
-        var privateKey = Buffer.from('a9daf0d66ee7df34c5b446cbf24934067c20308b5058a83c9bd5f1abd619df45', 'hex')
+        var privateKey = Buffer.from('a9daf0d66ee7df34c5b446cbf24934067c20308b5058a83c9bd5f1abd619df45', 'hex');
         var toAddress = '0x677c430a082Ae9A68A3060a29609851C344C8367';
 
         //contract abi is the array that you can get from the ethereum wallet or etherscan
-        var contractABI = JSON.parse(fs.readFileSync('../reward_token/artifacts/contracts/Token.sol/Token.json', 'utf8'));;
+        var contractABI = JSON.parse(fs.readFileSync('../reward_token/artifacts/contracts/Token.sol/Token.json', 'utf8'));
         var contractAddress ="0xB013A5567a138Aa62A288E0Da45A3C730c8701f6";
         //creating contract object
         var contract = new web3js.eth.Contract(contractABI,contractAddress);
